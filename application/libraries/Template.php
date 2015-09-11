@@ -171,7 +171,7 @@ class Template
 	 */
 	public function set_theme($theme)
 	{
-		if(is_dir('assets/public/themes/'.$theme))
+		if(is_dir('assets/' . $this->get_platform() . '/themes/'.$theme))
 			$this->theme = $theme;
 		else
 			show_error("Cannot find theme folder: {$theme}.");
