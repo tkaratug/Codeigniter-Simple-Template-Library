@@ -4,9 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Template Library for Codeigniter Web Framework
  * 
- * @author 		Turan Karatuğ <tkaratug@hotmail.com.tr>
+ * @author 	Turan Karatuğ <tkaratug@hotmail.com.tr>
  * @version 	v1.0
- * @access 		public
+ * @access 	public
  */
 
 class Template
@@ -36,7 +36,7 @@ class Template
 
 	/**
 	 * Setting CSS files.
-	 * @param $css_file string	file path or url
+	 * @param $css_file 	string	file path or url
 	 * @param $source 	string	(local|remote)
 	 * @return void
 	 */
@@ -63,7 +63,7 @@ class Template
 	/**
 	 * Setting JS files.
 	 * @param $js_file	string	file path or url
-	 * @param $location string 	(header|footer)
+	 * @param $location 	string 	(header|footer)
 	 * @param $source 	string	(local|remote)
 	 * @return void
 	 */
